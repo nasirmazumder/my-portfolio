@@ -6,11 +6,13 @@ body{
   width: 1200px;
   margin: 0 auto;
   height: 70px;
+  
 }
 .navigation-bar{
   background-color: #352d2f;
   height: 100px;
   width: 100%;
+  
 }
 .logo{
   float:right;
@@ -21,12 +23,13 @@ body{
   text-align: center;
   padding: 0px;
   margin: 15px;
+  
 }
 .navigation-bar li{
   list-style-type: none;
   display: inline;
   padding: 0px;
-  
+  position: relative;
   margin-bottom: 4px;
   height: 24px;
   
@@ -38,9 +41,33 @@ body{
   font-size: 25px;
   color: white;
   line-height: 100px;
-  
+
+}
+.navigation-bar ul li{
+  list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
 }
 .navigation-bar li a:hover{
-  color:#2EAEEB;
+  color: #2eaeeb;
+}
+
+
+.navigation-bar ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #e61708;
   
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  
+}
+.navigation-bar ul li:hover::after{
+  width: 100%;
+  padding: 3px;
+
 }
