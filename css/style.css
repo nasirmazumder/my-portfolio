@@ -115,7 +115,7 @@ h1{
   height:90%;
 }
 .my-destiny{
-  background-image: url(img/dreambg.png);
+  background-image: url(/img/dreambg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -136,7 +136,7 @@ border-radius: 20px;
   height: 400px;
 }
 .experience-area{
-  background-image: url(img/experience.png);
+  background-image: url(/img/experience.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 65px;
